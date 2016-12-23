@@ -1,0 +1,19 @@
+﻿Build started 12/8/2016 11:17:54 AM.
+     1>Project "C:\Users\ammar\Documents\Visual Studio 2013\Projects\2DTO3D_\2DTO3D\2DTO3D.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\oencv300\opencv\build\include /IC:\oencv300\opencv\build\x86\vc12\bin /I"D:\Softwares\Libraries\freeglut-2.8.1\include" /I"D:\Softwares\Libraries\glm-0.9.6.1\glm" /IC:\opencv300\opencv\build\include /Zi /nologo /W3 /WX- /sdl- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(183): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>main.cpp(192): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ammar\Documents\Visual Studio 2013\Projects\2DTO3D_\x64\Debug\2DTO3D.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv300\opencv\build\x64\vc12\staticlib /LIBPATH:C:\opencv300\opencv\build\x64\vc12\lib /LIBPATH:C:\opencv300\opencv\build\x86\vc12\lib /LIBPATH:C:\opencv300\opencv\build\x86\vc12\staticlib /LIBPATH:"D:\Softwares\Libraries\freeglut-2.8.1\lib\x86\Debug" /LIBPATH:C:\opencv300\opencv\build\x64\vc12\staticlib /LIBPATH:C:\opencv300\opencv\build\x64\vc12\lib opencv_ts300d.lib opencv_world300d.lib freeglut.lib opencv_calib3d300d.lib opencv_core300d.lib opencv_features2d300d.lib opencv_flann300d.lib opencv_highgui300d.lib opencv_imgcodecs300d.lib opencv_imgproc300d.lib opencv_ml300d.lib opencv_objdetect300d.lib opencv_photo300d.lib opencv_shape300d.lib opencv_stitching300d.lib opencv_superres300d.lib opencv_ts300d.lib opencv_video300d.lib opencv_videoio300d.lib opencv_videostab300d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ammar\Documents\Visual Studio 2013\Projects\2DTO3D_\x64\Debug\2DTO3D.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ammar\Documents\Visual Studio 2013\Projects\2DTO3D_\x64\Debug\2DTO3D.lib" /MACHINE:X64 x64\Debug\EdgeDetection.obj
+         x64\Debug\IntersectionPoints.obj
+         x64\Debug\LineDetection.obj
+         x64\Debug\main.obj
+         x64\Debug\PreProcessing.obj
+         2DTO3D.vcxproj -> C:\Users\ammar\Documents\Visual Studio 2013\Projects\2DTO3D_\x64\Debug\2DTO3D.exe
+     1>Done Building Project "C:\Users\ammar\Documents\Visual Studio 2013\Projects\2DTO3D_\2DTO3D\2DTO3D.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.14

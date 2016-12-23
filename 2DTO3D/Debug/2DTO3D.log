@@ -1,0 +1,13 @@
+﻿Build started 3/7/2016 12:40:38 PM.
+     1>Project "F:\Rafia\University\7th semester\Final Year Project I\Codes\2DTO3D\2DTO3D\2DTO3D.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Rafia\University\7th semester\Final Year Project I\Codes\2DTO3D\Debug\2DTO3D.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\oencv300\opencv\build\x86\vc12\lib /LIBPATH:C:\oencv300\opencv\build\x86\vc12\staticlib opencv_ts300d.lib opencv_world300d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Rafia\University\7th semester\Final Year Project I\Codes\2DTO3D\Debug\2DTO3D.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Rafia\University\7th semester\Final Year Project I\Codes\2DTO3D\Debug\2DTO3D.lib" /MACHINE:X86 Debug\EdgeDetection.obj
+         Debug\LineDetection.obj
+         Debug\main.obj
+         Debug\PreProcessing.obj
+         2DTO3D.vcxproj -> F:\Rafia\University\7th semester\Final Year Project I\Codes\2DTO3D\Debug\2DTO3D.exe
+     1>Done Building Project "F:\Rafia\University\7th semester\Final Year Project I\Codes\2DTO3D\2DTO3D\2DTO3D.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.39

@@ -1,0 +1,40 @@
+﻿Build started 12/2/2016 11:04:14 PM.
+     1>Project "C:\Users\ammar\Documents\Visual Studio 2013\Projects\2DTO3D_\2DTO3D\2DTO3D.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\Softwares\Libraries\glm-0.9.6.1\glm" /I"D:\Softwares\Libraries\freeglut-2.8.1\include" /IC:\oencv300\opencv\build\x86\vc12\bin /IC:\oencv300\opencv\build\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt EdgeDetection.cpp IntersectionPoints.cpp LineDetection.cpp main.cpp PreProcessing.cpp
+         EdgeDetection.cpp
+         IntersectionPoints.cpp
+     1>IntersectionPoints.cpp(59): warning C4305: '=' : truncation from 'double' to 'float'
+     1>IntersectionPoints.cpp(67): warning C4305: '=' : truncation from 'double' to 'float'
+         LineDetection.cpp
+     1>LineDetection.cpp(24): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>LineDetection.cpp(24): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>LineDetection.cpp(25): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>LineDetection.cpp(25): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>LineDetection.cpp(26): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>LineDetection.cpp(26): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>LineDetection.cpp(27): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>LineDetection.cpp(27): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>LineDetection.cpp(105): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>LineDetection.cpp(106): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>LineDetection.cpp(108): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>LineDetection.cpp(203): warning C4244: '=' : conversion from 'double' to 'uchar', possible loss of data
+     1>LineDetection.cpp(242): warning C4244: '=' : conversion from 'double' to 'uchar', possible loss of data
+         main.cpp
+     1>main.cpp(183): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>main.cpp(192): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         PreProcessing.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ammar\Documents\Visual Studio 2013\Projects\2DTO3D_\x64\Release\2DTO3D.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\opencv300\opencv\build\x64\vc12\staticlib /LIBPATH:C:\opencv300\opencv\build\x64\vc12\lib /LIBPATH:C:\opencv300\opencv\build\x86\vc12\lib /LIBPATH:C:\opencv300\opencv\build\x86\vc12\staticlib /LIBPATH:"D:\Softwares\Libraries\freeglut-2.8.1\lib\x86\Debug" opencv_ts300.lib opencv_world300.lib freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ammar\Documents\Visual Studio 2013\Projects\2DTO3D_\x64\Release\2DTO3D.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ammar\Documents\Visual Studio 2013\Projects\2DTO3D_\x64\Release\2DTO3D.lib" /MACHINE:X64 x64\Release\EdgeDetection.obj
+         x64\Release\IntersectionPoints.obj
+         x64\Release\LineDetection.obj
+         x64\Release\main.obj
+         x64\Release\PreProcessing.obj
+         Generating code
+         Finished generating code
+         2DTO3D.vcxproj -> C:\Users\ammar\Documents\Visual Studio 2013\Projects\2DTO3D_\x64\Release\2DTO3D.exe
+     1>Done Building Project "C:\Users\ammar\Documents\Visual Studio 2013\Projects\2DTO3D_\2DTO3D\2DTO3D.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:02:13.74
